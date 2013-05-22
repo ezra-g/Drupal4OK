@@ -15,6 +15,13 @@ function open_bed_ctools_plugin_api() {
 }
 
 /**
+ * Implements hook_views_api().
+ */
+function open_bed_views_api() {
+  return array("api" => "3.0");
+}
+
+/**
  * Implements hook_node_info().
  */
 function open_bed_node_info() {
