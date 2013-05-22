@@ -1,0 +1,10 @@
+name = Open bed admin
+description = Open bed administration
+core = 7.x
+package = Features
+php = 5.2.4
+version = 7.x-1.0
+project = open_bed_admin
+dependencies[] = taxonomy
+dependencies[] = views
+features[features_api][] = api:2
