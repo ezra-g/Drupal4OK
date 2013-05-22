@@ -831,6 +831,7 @@ Phone or mobile number.',
   // Exported field_instance: 'node-open_bed-field_contact_screened_date'
   $field_instances['node-open_bed-field_contact_screened_date'] = array(
     'bundle' => 'open_bed',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -937,7 +938,7 @@ Phone or mobile number.',
         'text_parts' => array(),
         'year_range' => '-3:+3',
       ),
-      'type' => 'date_popup',
+      'type' => 'date_select',
       'weight' => 12,
     ),
   );
@@ -945,6 +946,7 @@ Phone or mobile number.',
   // Exported field_instance: 'node-open_bed-field_date_from'
   $field_instances['node-open_bed-field_date_from'] = array(
     'bundle' => 'open_bed',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1059,7 +1061,7 @@ Phone or mobile number.',
         'text_parts' => array(),
         'year_range' => '-3:+3',
       ),
-      'type' => 'date_popup',
+      'type' => 'date_select',
       'weight' => 2,
     ),
   );
@@ -1067,6 +1069,7 @@ Phone or mobile number.',
   // Exported field_instance: 'node-open_bed-field_date_to'
   $field_instances['node-open_bed-field_date_to'] = array(
     'bundle' => 'open_bed',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -1181,7 +1184,7 @@ Phone or mobile number.',
         'text_parts' => array(),
         'year_range' => '-3:+3',
       ),
-      'type' => 'date_popup',
+      'type' => 'date_select',
       'weight' => 3,
     ),
   );
