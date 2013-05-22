@@ -1,7 +1,11 @@
 <?php
+/**
+ * @file
+ * open_bed.features.inc
+ */
 
 /**
- * Implementation of hook_node_info().
+ * Implements hook_node_info().
  */
 function open_bed_node_info() {
   $items = array(
@@ -11,7 +15,9 @@ function open_bed_node_info() {
       'description' => '',
       'has_title' => '1',
       'title_label' => t('Summary'),
-      'help' => t('Please don\'t add your full address - just the street and suburb are enough. Make sure you add contact details so people can contact you.'),
+      'help' => t('<p><strong>Privacy Statement</strong><br />
+
+The information collected on this form is used by qldfloods.org to allow us to match someone who has a bed available with someone who requires a bed. The information collected on this form is displayed on the website and is provided to callers to the qldfloods.org call centre. You can update or remove this information at any time by returning to this website. Your information will not be used for any other purpose other than that noted above.</p>'),
     ),
   );
   return $items;
