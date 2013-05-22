@@ -1,0 +1,6 @@
+<?php
+function updates_update_7000(&$sandbox) {
+  //Use the Stark theme.
+  theme_enable(array("stark"));
+  variable_set("theme_default", "stark");
+}
